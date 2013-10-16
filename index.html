@@ -1,131 +1,158 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!doctype html>
+<html>
 <head>
-<meta content="yes" name="apple-mobile-web-app-capable" />
-<meta content="index,follow" name="robots" />
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<link href="pics/homescreen.gif" rel="apple-touch-icon" />
-<meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport" />
-<link href="css/style.css" rel="stylesheet" media="screen" type="text/css" />
-<script src="javascript/functions.js" type="text/javascript"></script>
-<title>iWebKit - Classic iPhone lists</title>
-<meta content="iPod,iPhone,Webkit,iWebkit,Website,Create,mobile,Tutorial,free" name="Keywords" />
-<meta content="Create the classical iphone list feeling with these lists. Add images to add something more to your content and please the eye of your users" name="description" />
+<title>My Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css">
+<script src="javascript/jquery-1.8.2.min.js"></script>
+<script src="javascript/jquery.mobile-1.2.0.min.js"></script>
 </head>
-
-<body class="list">
-
-<div id="topbar">
-	<div id="leftnav">
-		<a href="index.html"><img alt="home" src="images/home.png" /></a></div>
-	<div id="rightnav">
-		<a href="applist.html">Appstore list</a></div>
-	<div id="title">
-		classic</div>
-</div>
-<div id="content">
-	<ul>
-		<li class="title">Faculty Physicians</li>
-		<li class="withimage">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/colette.auerswald">
-		<img alt="test" src="http://www.ucsfhealth.org/images/doctors/thumbs/1527.jpg" /><span class="name">Colette Auerswald, M.D., M.S.</span><span class="comment">Adolescent medicine specialist</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/sara.buckelew">
-		<img alt="test" src="images/39243.png" /><span class="name">Sara Buckelew, M.D.</span><span class="comment">Adolescent medicine specialist</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/loris.hwang">
-		<img alt="test" src="http://www.ucsfhealth.org/images/doctors/thumbs/1527.jpg" /><span class="name">Loris Hwang, M.D., M.S.</span><span class="comment">Adolescent medicine specialist</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/charles.irwin">
-		<img alt="test" src="images/39243.png" /><span class="name">Charles Irwin, M.D.</span><span class="comment">Adolescent medicine specialist</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/carolyn.jasik">
-		<img alt="test" src="images/39243.png" /><span class="name">Carolyn Jasik, M.D.</span><span class="comment">Adolescent medicine specialist</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/anna-barbara.moscicki">
-		<img alt="test" src="images/39243.png" /><span class="name">Anna-Barbara Moscicki, M.D.</span><span class="comment">Director of adolescent medicine clinics, pediatrician</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/mark.rubinstein">
-		<img alt="test" src="images/39243.png" /><span class="name">Mark Rubinstein, M.D.</span><span class="comment">Adolescent medicine specialist</span><span class="arrow"></span></a></li>
+<body>
+<div data-role="page">
+<div data-role="header">
+<h1 style="text-align:left; margin-left:10px;">Adolescent/Young Adult Medicine</h1>
+</div><!-- /header -->
+<div data-role="content">
 <!--
-		<li class="withimage">
-		<a class="noeffect" href="http://itunes.apple.com/fr/album/one-love/id327568537">
-		<img alt="test" src="http://a1.phobos.apple.com/us/r1000/012/Music/33/77/0e/mzi.owirvytf.170x170-75.jpg" /><span class="name">One 
-		Love</span><span class="comment">David Guetta</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://itunes.apple.com/fr/album/back-on-my-b-s/id314164974">
-		<img alt="test" src="http://a1.phobos.apple.com/us/r2000/005/Music/c6/3e/f8/mzi.kfqhjocj.170x170-75.jpg" /><span class="name">Back 
-		On My B.S.</span><span class="comment">Busta Rhymes</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://itunes.apple.com/fr/album/the-boy-who-knew-too-much-deluxe/id325258032">
-		<img alt="test" src="http://a1.phobos.apple.com/us/r2000/000/Features/34/32/d0/dj.grpqhbeu.170x170-75.jpg" /><span class="name">The 
-		boy who knew too much</span><span class="comment">Mika</span><span class="arrow"></span></a></li>
+<p>Hello world</p>
+<ul data-role="listview" data-inset="true" data-filter="true">
+<li><a href="#">Acura</a></li>
+<li><a href="#">Audi</a></li>
+<li><a href="#">BMW</a></li>
+<li><a href="#">Cadillac</a></li>
+<li><a href="#">Ferrari</a></li>
+</ul>
+
+<a href="#" data-role="button" data-icon="star">Star button</a>
+
+<a href="#" data-role="button" data-icon="star" data-theme="a">Button</a>
 -->
-		<li class="title">Other Faculty Clinicians</li>
-		<li class="withimage">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/allyn.evans">
-		<img alt="test" src="http://www.ucsfhealth.org/images/doctors/thumbs/1527.jpg" /><span class="name">Allyn Evans</span><span class="comment">Dietitian</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/andrea.garber">
-		<img alt="test" src="images/39243.png" /><span class="name">Andrea Garber</span><span class="comment">Pediatric nutritionist</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/molly.koren">
-		<img alt="test" src="images/39243.png" /><span class="name">Molly Koren, M.S.W., L.C.S.W.</span><span class="comment">Social worker</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/erica.monasterio">
-		<img alt="test" src="images/39243.png" /><span class="name">Erica Monasterio, M.S.N.</span><span class="comment">Adolescent medicine nurse practitioner</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/luis.rodriguez">
-		<img alt="test" src="images/39243.png" /><span class="name">Luis Rodriguez, R.D., C.N.S.C.</span><span class="comment">Dietitian</span><span class="arrow"></span></a></li>
 
-		<li class="title">Practices and Services</li>
-		<li class="clinic">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/clinics/adolescent_and_young_adult/index.html">
-		<span class="name">Adolescent and Young Adult Clinic</span><span class="comment">400 Parnassus Ave, 2nd floor<br/>San Francisco, CA 94143<br/>P: (415) 353-2002<br/>F: (415) 353-2466</span><span class="arrow"></span></a></li>
-		<li class="clinic">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/clinics/adolescent_colposcopy/index.html">
-		<span class="name">Teen Colposcopy Clinic</span><span class="comment">400 Parnassus Ave, 2nd floor<br/>San Francisco, CA 94143<br/>P: (415) 353-2002<br/>F: (415) 353-2466</span><span class="arrow"></span></a></li>
-		<li class="clinic">
-		<a class="noeffect" href="http://www.ucsfbenioffchildrens.org/clinics/adolescent_eating_disorders/index.html">
-		<span class="name">Adolescent Eating Disorders Clinic</span><span class="comment">400 Parnassus Ave, 2nd floor<br/>San Francisco, CA 94143<br/>P: (415) 353-2002<br/>F: (415) 353-2466</span><span class="arrow"></span></a></li>
-
+	<ul data-role="listview">
+<li data-role="list-divider">Faculty Physicians</li>
 <!--
-		<li class="withimage">
-		<a class="noeffect" href="http://itunes.apple.com/fr/album/one-love/id327568537">
-		<img alt="test" src="/2.png" /><span class="name">Mohana Amirtharajah</span><span class="comment">Orthopedic surgeon</span><span class="arrow"></span></a></li>
-
-
-		<li class="withimage">
-		<li><a class="noeffect" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?id=50&popId=1&genreId=34"><span class="name">
-		All Doctors</span><span class="arrow"></span></a></li>
+			<li><a href="index.html">
+				<img src="images/39243.png" />
+				<h3>Broken Bells</h3>
+				<p>Broken Bells</p>
+			</a></li>
+			<li>
+                            <a href="index.html">
+			    <img src="images/39243.png" />
+				
+					<h3>Stephen Weber</h3>
+					<p><strong>You've been invited to a meeting at Filament Group in Boston, MA</strong></p>
+					<p>Hey Stephen, if you're available at 10am tomorrow, we've got a meeting with the jQuery team.</p>
+					<p class="ui-li-aside"><strong>6:24</strong>PM</p>
+			</a></li>
 -->
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/colette.auerswald"><img alt="test" src="http://www.ucsfhealth.org/images/doctors/thumbs/1527.jpg" />
+    <h3>Colette Auerswald, M.D., M.S.</h3>
+    <p>Adolescent medicine specialist</p>
+    </a>
+</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/sara.buckelew"><img alt="test" src="images/39243.png" />
+    <h3>Sara Buckelew, M.D.</h3>
+    <p>Adolescent medicine specialist</p>
+    </a>
+</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/loris.hwang"><img alt="test" src="images/39243.png" />
+    <h3>Loris Hwang, M.D., M.S.</h3>
+    <p>Adolescent medicine specialist</p>
+    </a>
+</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/charles.irwin"><img alt="test" src="images/39243.png" />
+    <h3>Charles Irwin, M.D</h3>
+    <p>Adolescent medicine specialist</p>
+    </a>
+</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/carolyn.jasik"><img alt="test" src="images/39243.png" />
+    <h3>Carolyn Jasik, M.D.</h3>
+    <p>Adolescent medicine specialist</p>
+    </a>
+</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/anna-barbara.moscicki"><img alt="test" src="images/39243.png" />
+    <h3>Anna-Barbara Moscicki, M.D.</h3>
+    <p>Director of adolescent medicine clinics, pediatrician</p>
+    </a>
+</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/mark.rubinstein"><img alt="test" src="images/39243.png" />
+    <h3>Mark Rubinstein, M.D.</h3>
+    <p>Adolescent medicine specialist</p>
+    </a>
+</li>
+
+<li data-role="list-divider">Other Faculty Clinicians</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/allyn.evans"><img alt="test" src="images/39243.png" />
+    <h3>Allyn Evans</h3>
+    <p>Dietitian</p>
+    </a>
+</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/andrea.garber"><img alt="test" src="images/39243.png" />
+    <h3>Andrea Garber</h3>
+    <p>Pediatric nutritionist</p>
+    </a>
+</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/molly.koren"><img alt="test" src="images/39243.png" />
+    <h3>Molly Koren, M.S.W., L.C.S.W.</h3>
+    <p>Social worker</p>
+    </a>
+</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/erica.monasterio"><img alt="test" src="images/39243.png" />
+    <h3>Erica Monasterio, M.S.N.</h3>
+    <p>Adolescent medicine nurse practitioner</p>
+    </a>
+</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/luis.rodriguez"><img alt="test" src="images/39243.png" />
+    <h3>Luis Rodriguez, R.D., C.N.S.C.</h3>
+    <p>Dietitian</p>
+    </a>
+</li>
+<li>
+    <a href=""><img alt="test" src="images/39243.png" />
+    <h3></h3>
+    <p></p>
+    </a>
+</li>
+
+<li data-role="list-divider">Practices and Services</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/clinics/adolescent_and_young_adult/">
+    <h3>Adolescent and Young Adult Clinic</h3>
+    <p>400 Parnassus Ave, 2nd floor<br/>San Francisco, CA 94143<br/>P: (415) 353-2002<br/>F: (415) 353-2466</p>
+    </a>
+</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/clinics/adolescent_colposcopy/">
+    <h3>Teen Colposcopy Clinic</h3>
+    <p>400 Parnassus Ave, 2nd floor<br/>San Francisco, CA 94143<br/>P: (415) 353-2002<br/>F: (415) 353-2466</p>
+    </a>
+</li>
+<li>
+    <a href="http://www.ucsfbenioffchildrens.org/clinics/adolescent_eating_disorders/">
+    <h3>Adolescent Eating Disorders Clinic</h3>
+    <p>400 Parnassus Ave, 2nd floor<br/>San Francisco, CA 94143<br/>P: (415) 353-2002<br/>F: (415) 353-2466</p>
+    </a>
+</li>
+        </ul>
+</div><!-- /content -->
+<div data-role="footer">
 <!--
-		<li class="title">TV Series</li>
-		<li class="withimage">
-		<a class="noeffect" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTVSeason?id=336916043&s=143442">
-		<img alt="test" src="http://a1.phobos.apple.com/us/r30/Video/68/8d/4a/mzl.plhikvbk.100x100-75.jpg" /><span class="name">Trueblood</span><span class="comment">Season 
-		1</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTVSeason?id=282440612&s=143442">
-		<img alt="test" src="http://a1.phobos.apple.com/us/r1000/005/Features/f1/c6/64/dj.owhyvoqz.100x100-75.jpg" /><span class="name">Lost</span><span class="comment">Season 
-		1</span><span class="arrow"></span></a></li>
-		<li class="withimage">
-		<a class="noeffect" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTVSeason?id=278328721&s=143442">
-		<img alt="test" src="http://a1.phobos.apple.com/us/r1000/001/Features/b2/48/c2/dj.uljxleyg.100x100-75.jpg" /><span class="name">Spongebob 
-		Squarepants</span><span class="comment">Season 3</span><span class="arrow"></span></a></li>
-		<li><a class="noeffect" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?id=25116&popId=12&genreId=32"><span class="name">
-		All Top Series</span><span class="arrow"></span></a></li>
+<h4>My Footer</h4>
 -->
-	</ul>
-</div>
-<div id="footer">
-	<!-- Support iWebKit by sending us traffic; please keep this footer on your page, consider it a thank you for my work :-) -->
-<!--
-	<a class="noeffect" href="http://snippetspace.com">iPhone site powered by iWebKit</a>
--->
-</div>
-
+</div><!-- /footer -->
+</div><!-- /page -->
 </body>
-
 </html>
