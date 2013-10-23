@@ -3,18 +3,18 @@
 <head>
 <title>UCSF Benioff Children's Hospital Physician Referral Directory</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
-	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	<link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
+	<script src="javascript/jquery-1.8.2.min.js"></script>
+	<script src="javascript/jquery.mobile-1.2.0.min.js"></script>
 <STYLE type="text/css">
-.ui-btn-active
-{
-    color: #8f76d2 !important;
-    background: none !important;
-    background-color: #8f76d2 !important;
+.ui-btn-active 
+{ 
+    color: #8f76d2 !important; 
+    background: none !important; 
+    background-color: #8f76d2 !important; 
     border: 1px solid #8f76d2;
 }
-.ui-body-f
+.ui-body-f 
 {
      background: #f9f9f9;
      border: 1px solid #8f76d2;
@@ -29,17 +29,17 @@
 <div data-role="content">
 <!--
 <p>Hello world</p>
-<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="e">
+<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="e"> 
 -->
 <ul data-role="listview" data-inset="true" data-filter="true">
-<li><a href="jquery.html">Adolescent Medicine <span class="ui-li-count">12</span></a></li>
+<li data-filtertext="Adolescent Medicine Adolescent Behavioral Problems Adolescent Chronic Disease Management Adolescent Eating Disorders Adolescent Gynecology Adolescent Reproductive Health Adolescent Obesity Adolescent School-Related Problem Assessment Adolescent Sports Injuries Adolescent Substance Use and Abuse"><a href="/jquery.html">Adolescent Medicine <span class="ui-li-count">12</span></a></li>
 <li><a href="#">Allergy</a></li>
 <li><a href="#">Anesthesia</a></li>
-<li><a href="#">Birth Defects</a></li>
+<li><a href="birthdefects.html">Birth Defects <span class="ui-li-count">24</span></a></li>
 <li><a href="#">Bone and Marrow Transplant</a></li>
-<li><a href="#">Cardiology</a></li>
+<li data-filtertext="Pediatric Cardiology Cardiac Catheterization Balloon Angioplasty Cardiac Catheter Ablation Acquired Cardiac Defects Congenital Cardiac Defects Acquired Cardiac Disease Cardiac Magnetic Resonance Imaging Cardiac Nuclear Scan Cardiac Pacemaker Placement Cardiac Stent Dilation Cardiac Ultrafast CT Scan Ductus Arteriosus Coil Occlusion Electrocardiography Echocardiography Electrophysiology Exercise Treadmill Testing Fetal Echo Foramen Ovale Interventional Catheterization Pacemaker Interrogation Atrial Septal Defect Ventricular Septal Defect Transesophageal Echo Valvuloplasty Young Adult Congenital Heart Disease"><a href="cardiology.html">Cardiology <span class="ui-li-count">31</span></a></li>
 <li><a href="#">Cardiothoracic Surgery</a></li>
-<li><a href="#">Craniofacial Anomalies</a></li>
+<li><a href="craniofacialanomalies.html">Craniofacial Anomalies <span class="ui-li-count">16</span></a></li>
 <li><a href="#">Critical Care</a></li>
 <li><a href="#">Dermatology</a></li>
 <li><a href="#">Echocardiography</a></li>
@@ -57,12 +57,11 @@
 
 	<ul data-role="listview">
 <li data-role="list-divider" style="background:#8f76d2; border: 1px solid #8f76d2;">LABEL</li>
--->
 	<ul data-role="listview" data-inset="true">
 <li data-role="list-divider" style="background:#8f76d2; border: 1px solid #8f76d2;">LABEL</li>
 <li><a href="#">Physician Index</a></li>
-<li><a href="#">Subject Index</a></li>
 </ul>
+-->
 
 <!--
 <a href="#" data-role="button" data-icon="star">Star button</a>
@@ -81,7 +80,7 @@
 			<li>
                             <a href="index.html">
 			    <img src="images/39243.png" />
-
+				
 					<h3>Stephen Weber</h3>
 					<p><strong>You've been invited to a meeting at Filament Group in Boston, MA</strong></p>
 					<p>Hey Stephen, if you're available at 10am tomorrow, we've got a meeting with the jQuery team.</p>
@@ -194,9 +193,19 @@
         </ul>
 -->
 </div><!-- /content -->
+  <div data-role="footer" data-position="fixed" style="background:#f98315; border: 0px solid #f98315;">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#leftpanel1" data-rel="panel" data-role="button" data-icon="search" data-iconpos="top" style="background:#f98315;">Search by Physician</a></li>
+        </ul>
+      </div>
+    </div>
+<!--
 <div data-role="footer">
 <h4>My Footer</h4>
-</div><!-- /footer -->
+</div>
+-->
+<!-- /footer -->
 </div><!-- /page -->
 </body>
 </html>
